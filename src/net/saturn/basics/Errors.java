@@ -1,4 +1,4 @@
-package net.rose.basics;
+package net.saturn.basics;
 
 public class Errors {
     public static void main(String[] args) {

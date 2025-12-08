@@ -1,4 +1,4 @@
-package net.rose.basics;
+package net.saturn.basics;
 
 public class assignmentOperators {
     public static void main(String[] args) {

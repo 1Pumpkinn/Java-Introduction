@@ -1,4 +1,4 @@
-package net.rose.basics;
+package net.saturn.basics;
 
 import java.util.Scanner;
 
