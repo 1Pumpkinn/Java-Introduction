@@ -1,6 +1,6 @@
 package net.saturn.basics;
 
-public class IntegersANDArithmetic {
+public class integersAndArithmeticMethods {
     public static void main(String[] args) {
         /* Integers, Math and Arithmetic Operators  */
 

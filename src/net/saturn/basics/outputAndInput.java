@@ -2,7 +2,7 @@ package net.saturn.basics;
 
 import java.util.Scanner;
 
-public class OutputANDInput {
+public class outputAndInput {
     public static void main(String[] args) {
         /* Outputting with println and Inputting with Scanner */
 
