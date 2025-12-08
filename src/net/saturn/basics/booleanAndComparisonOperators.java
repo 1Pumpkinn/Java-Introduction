@@ -45,12 +45,12 @@ public class booleanAndComparisonOperators {
 
         System.out.println("");
 
-        boolean equals = lessThan == greaterThan; // checks to see if 100 equals 200 #false
+        boolean equals = lessThan == greaterThan; // checks to see if 100 equals 200
         System.out.println("100 is equal to 200: " + equals);
 
         boolean notEquals = lessThan != greaterThan;
         System.out.println("100 does not equal to 200: " + notEquals);
-        // checks to see if 100 does not equal to 200 #true
+        // checks to see if 100 does not equal to 200
 
     }
 }
