@@ -1,4 +1,4 @@
-package net.saturn.basics;
+package net.saturn.practice;
 
 public class practice {
     public static void main(String[] args) {
