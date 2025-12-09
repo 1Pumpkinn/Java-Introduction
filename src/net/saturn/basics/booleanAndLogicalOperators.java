@@ -21,9 +21,16 @@ public class booleanAndLogicalOperators {
         boolean learning = watchedLectures || askedQuestion;
         boolean pandaChart = pandaHasRizz && pandaHasAura;
         boolean pandaChart1 = pandaHasRizz || pandaHasAura;
+        boolean pandaChart2 = pandaHasRizz && !pandaHasAura;
+        boolean pandaChart3 = pandaHasRizz || !pandaHasAura;
+
+        System.out.println(finishedCourse);
         System.out.println("Panda has Rizz and Aura: " + pandaChart);
         System.out.println("Panda has Rizz or Aura: " + pandaChart1);
-
+        System.out.println(pandaChart2);
+        System.out.println(pandaChart3);
+        System.out.println(learning);
+        System.out.println(isFan);
 
 
 
