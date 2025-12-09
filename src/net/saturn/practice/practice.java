@@ -11,8 +11,15 @@ public class practice {
 
         int yourScore = 100;
         boolean passingScore = yourScore >= 80;
-        System.out.println("You passed " + passingScore);
+        System.out.println("You passed: " + passingScore + " With a score of " + yourScore);
 
+        boolean hasPerfectScore = yourScore == 100;
+        boolean failedClass = !hasPerfectScore;
+        System.out.println(failedClass);
+
+        //ifFailedClass is true PassClass is false
+        // !hasPerfectScore true -> false
+        // false -> true
 
 
 
