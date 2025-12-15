@@ -11,10 +11,10 @@ public class stringAndStringMethods {
 
         // Uppercase and Lowercase
 
-        // Shouting
+        // SHOUTING
         System.out.println(sentence.toUpperCase());
 
-        // Whispering
+        // whispering
         System.out.println(sentence.toLowerCase());
 
         System.out.println(sentence);
