@@ -10,6 +10,12 @@ public class Casting {
         float interest = (float)loan * interestRate;
         System.out.println(interest);
 
+        // practice
+        int bankMoney = 1920;
+        float walletMoney = 212.48f;
+
+        float combined = (float)bankMoney + walletMoney;
+        System.out.println(combined);
 
     }
 }
