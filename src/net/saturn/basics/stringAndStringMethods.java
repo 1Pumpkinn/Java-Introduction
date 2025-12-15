@@ -4,22 +4,28 @@ public class stringAndStringMethods {
     public static void main(String[] args) {
         /* STRINGS AND STRING-METHODS */
 
-        String sentence = "It's a wonderful Java Introduction!";
-        System.out.println(sentence);
-        System.out.println("Length is " + sentence.length());
+        String sentence = "What a Wonderful Java Introduction!";
 
-        // Upper and Lower Case
-        System.out.println("SHOUTING: " + sentence.toUpperCase());
-        System.out.println("whispering: " + sentence.toLowerCase());
+        System.out.println(sentence);
+        System.out.println(sentence.length());
+
+        // Uppercase and Lowercase
+
+        // Shouting
+        System.out.println(sentence.toUpperCase());
+
+        // Whispering
+        System.out.println(sentence.toLowerCase());
+
         System.out.println(sentence);
 
         // indexOf
-        System.out.println("The word Java is at position " + sentence.indexOf("Java"));
+        System.out.println(sentence.indexOf("Java"));
 
         // Replace
         System.out.println(sentence.replace("Java", "C#"));
 
-        System.out.println(sentence.startsWith("I"));
+        System.out.println(sentence.startsWith("W"));
         System.out.println(sentence.endsWith("A"));
 
         String s = "";
@@ -30,11 +36,13 @@ public class stringAndStringMethods {
         System.out.println(sentence.contains("Java"));
 
         // charAt
-        System.out.println(sentence.charAt(17));
+        System.out.println(sentence.charAt(1)); // counts from 0 to max number
 
-        // substring
+        // subString
         System.out.println(sentence.substring(17));
 
-
+        // Trying
+        System.out.println(sentence.endsWith("!"));
+        System.out.println(sentence.repeat(2));
     }
 }
