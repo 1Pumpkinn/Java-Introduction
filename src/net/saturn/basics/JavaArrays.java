@@ -36,7 +36,7 @@ public class JavaArrays {
 
         // Practice
 
-        System.out.println("What test number number is this");
+        System.out.println("What test number is this");
         String[] questions1 = new String[3];
         questions1[0] = "test";
         questions1[1] = "test";
@@ -48,6 +48,25 @@ public class JavaArrays {
         answers1[2] = "2";
         System.out.println(questions1[0]);
         System.out.println(answers1[0]);
+
+
+        String testQuestion0 = "test question 0";
+        String testQuestion1 = "test question 1";
+        String testQuestion2 = "test question 2";
+
+        String[] testQuestions = new String[3];
+        testQuestions[0] = testQuestion0;
+        testQuestions[1] = testQuestion1;
+        testQuestions[2] = testQuestion2;
+
+        System.out.println(testQuestions[2]);
+
+
+
+
+
+
+
 
 
     }
